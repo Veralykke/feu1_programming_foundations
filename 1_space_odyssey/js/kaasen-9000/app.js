@@ -118,9 +118,9 @@ var reFacturedDroid = {
 
 console.log("reFacturedDroid");
 console.log(".-.-. Booting .-.-.");
-console.log(reFacturedDroid.head, reFacturedDroid.isAlive, reFacturedDroid.name, reFacturedDroid.head, reFacturedDroid.suitColor, reFacturedDroide.eyes, reFacturedDroide.eyeColor, reFacturedDroid.hairColor, reFacturedDroid.legs, reFacturedDroid.arms);
-console.log(reFacturedDroid.upperbody, reFacturesDroid.hands, reFacturedDroid.ears, reFacturedDroid.upperbody, reFacturedDroid.lowerBody, reFacturedDroid.hasJetpac);
-
+console.log(reFacturedDroid.head.isAlive, reFacturedDroid.name, reFacturedDroid.head, reFacturedDroid.suitColor, reFacturedDroide.eyes, reFacturedDroide.eyeColor, reFacturedDroid.hairColor, reFacturedDroid.legs, reFacturedDroid.arms);
+console.log(reFacturedDroid.upperbody.hands, reFacturedDroid.ears, reFacturedDroid.upperbody, reFacturedDroid.lowerBody, reFacturedDroid.hasJetpac);
+console.log(reFacturedDroid.droid5000.hasWeapon);
 
 
 /*
@@ -131,7 +131,7 @@ console.log(reFacturedDroid.upperbody, reFacturesDroid.hands, reFacturedDroid.ea
 */
 
 
-if (reFacturedDroid.hasJetpac) {
+if (reFacturedDroid.upperbody.hasJetpac) {
     console.log("JetPack is enabled!!! off I go outside to fix the satellite")
 } else {
     console.log("JetPack NOT enabled, please enable jetPack before doing a space walk")
