@@ -87,26 +87,39 @@ _______/\\\\\________/\\\\\\\\\\\\______/\\\________/\\\______/\\\\\\\\\\\______
 */
 
 var reFacturedDroid = {
+    head: {
+        isAlive: true,
+        name: "Droid5000",
+        head: true,
+        suitColor: "white",
+        eyes: 2,
+        eyeColor: "yellow",
+        hairColor: "green",
+        legs: 3,
+        arms: 4,
+    },
+    upperbody: {
+        hands: 4,
+        ears: 1,
+        upperbody: true,
+        lowerbody: true,
+        hasJetpac: true,
+    },
+    lowerBody: {
 
-    isAlive: true,
-    name: "Droid5000",
-    head: true,
-    suitColor: "white",
-    eyes: 2,
-    eyeColor: "yellow",
-    hairColor: "green",
-    legs: 3,
-    arms: 4,
-    hands: 4,
-    ears: 1,
-    upperbody: true,
-    lowerbody: true,
-    hasJetpac: true
-};
+    },
+
+    droid5000: {
+        hasWeapon: true,
+
+    },
+}
+
 
 console.log("reFacturedDroid");
 console.log(".-.-. Booting .-.-.");
-console.log(reFacturedDroid.arms);
+console.log(reFacturedDroid.head, reFacturedDroid.isAlive, reFacturedDroid.name, reFacturedDroid.head, reFacturedDroid.suitColor, reFacturedDroide.eyes, reFacturedDroide.eyeColor, reFacturedDroid.hairColor, reFacturedDroid.legs, reFacturedDroid.arms);
+console.log(reFacturedDroid.upperbody, reFacturesDroid.hands, reFacturedDroid.ears, reFacturedDroid.upperbody, reFacturedDroid.lowerBody, reFacturedDroid.hasJetpac);
 
 
 
