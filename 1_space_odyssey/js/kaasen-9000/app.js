@@ -85,27 +85,28 @@ _______/\\\\\________/\\\\\\\\\\\\______/\\\________/\\\______/\\\\\\\\\\\______
     b. ensure to choose the correct values and datatypes
     c. the droid should be built in your likeness (a human, with human features, 2 arms, legs etc)
 */
-var isAlive = true;
-var name = "kaasen9000";
-var hasJetPack = true;
-var suitColor = "white";
-var eyes = 4;
-var eyeColor = "green";
-var hairColor = "svart";
-var legs = 3;
-var arms = 4;
-var hands = 4;
-var ears = 2;
 
-var canWalk = false;
-var canRun = false;
-var canFly = true;
-var hasWeapon = true;
-var isInGoodMood = true;
+var reFacturedDroid = {
 
+    isAlive: true,
+    name: "Droid5000",
+    head: true,
+    suitColor: "white",
+    eyes: 2,
+    eyeColor: "yellow",
+    hairColor: "green",
+    legs: 3,
+    arms: 4,
+    hands: 4,
+    ears: 1,
+    upperbody: true,
+    lowerbody: true,
+    hasJetpac: true
+};
 
+console.log("reFacturedDroid");
 console.log(".-.-. Booting .-.-.");
-console.log(name, isAlive, hasJetPack, eyes, eyeColor, hairColor, legs, arms, hands, ears, canWalk, canFly, hasWeapon);
+console.log(reFacturedDroid.arms);
 
 
 
@@ -117,7 +118,7 @@ console.log(name, isAlive, hasJetPack, eyes, eyeColor, hairColor, legs, arms, ha
 */
 
 
-if (hasJetPack) {
+if (reFacturedDroid.hasJetpac) {
     console.log("JetPack is enabled!!! off I go outside to fix the satellite")
 } else {
     console.log("JetPack NOT enabled, please enable jetPack before doing a space walk")
@@ -317,3 +318,21 @@ ELSE
 */
 
 // Level 2 convert it to a switch statement.
+
+
+
+/*
+ 7. Android Object REFACTOR:::::
+
+ Level 1::::::::::::::
+ Refactor (change) all the variables you have in place that initializes the android into an android object.
+ - Your android needs a head, upperBody, lowerBody & [ anyThingElseYouCanDreamOf ].
+ - Feel free to create any new properties that will further describe your android [ anyThingYouCanDreamOf ].
+ - next update your application to use this newly refactored code
+
+ tip: the console.log that prints the variables of the android will need to be updated
+
+ Level 2::::::::::::::
+ Refactor the planets array to be an array of objects, each object must be its own planet.
+  - next update your application to use this newly refactored code
+*/
